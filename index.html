@@ -28,9 +28,11 @@
         <div class="instructions">
             <p>You will be given a random number at the start of the game.</p>
 
-            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+                total score.</p>
 
-            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score
+                goes above the random number.</p>
 
             <p>The value of each crystal is hidden from you until you click on it.</p>
 
@@ -41,22 +43,32 @@
         <div id="randomNumber">
             ...
         </div>
+        <br>
 
         <!-- Win Count -->
-        <div id="wins">
-            0
+        <div class="wins">Wins:
+            <span id="wins">
+                0
+            </span>
         </div>
+        <br>
 
         <!-- Loss Count -->
-        <div id="losses">
-            0
+        <div class="losses">Losses:
+            <span id="losses">
+                0
+            </span>
         </div>
+        <br>
 
         <!-- Crystals -->
-        <img src="assets/images/XXX" alt="crystal 1" id="crystal1">
-        <img src="assets/images/XXX" alt="crystal 2" id="crystal2">
-        <img src="assets/images/XXX" alt="crystal 3" id="crystal3">
-        <img src="assets/images/XXX" alt="crystal 4" id="crystal4">
+        <div class="crystalContainer">
+            <div class="crystal" id="crystal1"></div>
+            <div class="crystal" id="crystal2"></div>
+            <div class="crystal" id="crystal3"></div>
+            <div class="crystal" id="crystal4"></div>
+        </div>
+        <br>
 
         <!-- Score Count -->
         <div class="totalScore">
@@ -66,8 +78,8 @@
         <div id="score">
             0
         </div>
-    
-    <!-- CSS Grid End -->
+
+        <!-- CSS Grid End -->
     </div>
 
 </body>
